@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rothschild GFX</title>
+    <link rel="stylesheet" href="css/button.css">
+    	<link rel="stylesheet" href="css/index.css">
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body onload="loadfuncs();">
+	<div id="navbar">
+		<a id="menu" onclick="revealLinksbar(); menuState();"><span></span></a>
+			<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+			<script src="js/index.js"></script>
+            	<img src="r-imgs/r2.png" draggable="false"/>
+    </div><!--end navbar div-->
+    <div id="linksbar">
+    	<ul>
+			<li><a href="#">Tutorials</li></a>
+            <li><a href="contact.html">Contact</li></a>
+            <li><a href="port.html">Portfolio</li></a>
+        </ul> 	
+    </div><!--end linksbar div-->
+    <div id="socials">
+        	<a href="http://www.twitter.com/rothschild_cod"><img src="img/twitter_white.png" draggable="false"/></a>
+            <a href="https://www.behance.net/rothschildGFX/"><img src="img/behance_white.png" draggable="false"/></a>
+            <a href="#"><img src="img/tumblr_white.png" draggable="false"draggable="false"/></a>
+            <a href="http://www.github.com/maxhewett"><img src="img/github_white.png" draggable="false"/></a>
+     </div><!--end socials div-->
+     <div id="behind">
+    	<img src="r-imgs/rc-logo-header-alt.png" draggable="false"/>
+	</div><!--end behind div-->
+    <div id="placeholder">
+    </div><!--end placeholder div-->
+    <div class="colourbox" id="light">
+    	<hr/>
+    		<h1 class="cboxh1">Welcome to the Home of Rothschild GFX.</h1>
+    			<p>Here, you'll find my portfolio, contact information and tutorials for many different HTML, CSS, JS, C++, Obj-C, Swift, Illustrator and Photoshop designs or design techniques.</p>
+        <hr/>
+    </div><!--end colourbox div-->
+<!--- Navigtion bar, slider & social links finish here, main content of site starts below in container tag---> 
+
+<div id="container">
+    <div class="colourbox" id="medium">
+    		<hr/>
+        		<h1 class="cboxh1">Who am I?</h1>
+                	<img src="r-imgs/me.png" draggable="false"/>	
+                	<p>Hi! I'm Max. I'm an 18 year old programmer and designer from New Zealand. I work on lots of different projects including but not limited to HTML, CSS, JS, C++, Obj-C, Swift, Illustrator and Photoshop; paid and unpaid, when I'm not studying or already working on something. I am available for hire or consultation, but this site was mainly created to help others who are trying to learn anything that I have previously learnt. Please feel free to browse around the site and/or visit my contact page to ask me any questions you might have!</p>
+    		<hr/>
+    </div><!--end colourbox div-->
+    <div id="sbox">
+     <div id="slider-outer">
+       <a href=""><div id="slide1" class="slides">
+       </div></a><!--end slide1 div-->
+       <a href=""><div id="slide2" class="slides">
+       </div></a><!--end slide2 div-->
+       <a href=""><div id="slide3" class="slides">
+       </div></a><!--end slide3 div-->
+	</div><!--end slider-outer div-->
+    <div id="buttons">
+		<button id="b1" onclick="toggleOne(); button1();">1</button>
+    	<button id="b2" onclick="toggleTwo(); button2();">2</button>
+    	<button id="b3" onclick="toggleThree(); button3();">3</button>
+    </div><!--end buttons div-->
+    </div><!--end pbox div-->
+    <div class="colourbox" id="dark">
+    			<hr/>
+        		<h1 class="cboxh1" >Popular Tutorials This Week</h1>
+    					<ul>
+        					<li><a href="">Navigation Bar-ology</li></a>
+            				<li><a href="">Fluid Sliders</li></a>
+            				<li><a href="">Webpage Basics</li></a> 
+  						</ul>
+               	 	<hr/>
+     </div><!--end colourbox div-->
+</div><!--end container div-->
+<div id="credbox">
+<p>COPYRIGHT - ROTHSCHILD GFX - 2015</p>
+</div>
+</body>
+
+</html>

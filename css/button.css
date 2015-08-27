@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+#menu span {
+  background: #fff;
+  display: block;
+  position: relative;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+#menu span,
+#menu span:before,
+#menu span:after {
+  width: 100%;
+  height: .2em;
+  -moz-transition:       all 0.4s;
+  -o-transition:         all 0.4s;
+  -webkit-transition:    all 0.4s;
+  transition:            all 0.4s;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+#menu span:before,
+#menu span:after {
+  background: #fff;
+  content: " ";
+  margin-top: -.6em;
+  position: absolute;
+}
+
+#menu span:after {
+  margin-top: .6em;
+}
+
+#menu.on span {
+  background: transparent;
+}
+
+#menu.on span:before {
+  -moz-transform: rotate(45deg) translate(.5em, .4em);
+  -ms-transform: rotate(45deg) translate(.5em, .4em);
+  -o-transform: rotate(45deg) translate(.5em, .4em);
+  -webkit-transform: rotate(45deg) translate(.5em, .4em);
+  transform: rotate(45deg) translate(.5em, .4em);
+}
+
+#menu.on span:after {
+  -moz-transform: rotate(-45deg) translate(.45em, -.35em);
+  -ms-transform: rotate(-45deg) translate(.45em, -.35em);
+  -o-transform: rotate(-45deg) translate(.45em, -.35em);
+  -webkit-transform: rotate(-45deg) translate(.45em, -.35em);
+  transform: rotate(-45deg) translate(.45em, -.35em);
+}
+/****************/
