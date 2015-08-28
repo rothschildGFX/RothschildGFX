@@ -1,2 +1,2 @@
-# maxhewett
-Homepage for Myself &amp; MH Design
+# RothschildGFX
+Homepage for RothschildGFX
